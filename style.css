@@ -1,0 +1,225 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+body {
+  background: #6386d6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #6386d6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0f868a, #071052);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.nav {
+  border-bottom: 0px; }
+  .nav a {
+    color: #fff; }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.9); }
+
+.navbar-toggler {
+  border: none;
+  color: #fff; }
+
+.home {
+  color: #fff; }
+
+.homet {
+  height: 100vh;
+  font-weight: 700;
+  font-size: xx-large; }
+
+.homeimg {
+  background-image: url(img/What.png);
+  border-radius: 20%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#about {
+  color: #fff;
+  padding-top: 4rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.title-s {
+  margin-top: 2rem;
+  padding-bottom: 0; }
+
+.progress {
+  margin-bottom: 1rem;
+  margin-top: .5rem; }
+
+#projects {
+  padding-top: 3rem; }
+
+.projbody {
+  padding-left: 2rem; }
+  .projbody span {
+    transform: scale(1); }
+  .projbody img {
+    padding: 1px;
+    border-radius: 10%;
+    height: 100%;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .projbody img:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: ease 300ms; }
+
+.project {
+  color: #fff;
+  padding-top: 3rem; }
+
+.card-group {
+  background: #373B44;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff !important;
+  --bs-card-bg:fff0 !important; }
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition-delay: 200ms; }
+  .card:hover .card-body {
+    display: block !important; }
+
+#mobile {
+  background-image: url(img/mobile.jpg);
+  border-radius: 10%;
+  height: 420px;
+  width: 32%;
+  padding: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f12323 !important; }
+
+#cross {
+  background-image: url(img/flutter.png);
+  border-radius: 10%;
+  height: 420px;
+  width: 32%;
+  padding: 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black !important; }
+
+#web {
+  background-image: url(img/design3.jpg);
+  border-radius: 10%;
+  height: 420px;
+  width: 32%;
+  padding: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black !important; }
+
+.card-body {
+  display: none;
+  color: white; }
+
+.services {
+  color: #fff; }
+  .services .heading {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin: 3rem 0;
+    padding-top: 5.5rem;
+    position: relative; }
+    .services .heading::after {
+      content: "";
+      position: absolute;
+      bottom: -.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      height: .3rem;
+      width: 5rem;
+      background-color: #fff; }
+  .services .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .services .box-container .box {
+      background-color: #f7f7f7;
+      cursor: pointer;
+      text-align: center;
+      margin: 2rem;
+      border-radius: .5rem;
+      box-shadow: 0 0.3rem 0.3rem rgba(51, 51, 51, 0.5); }
+      .services .box-container .box img {
+        height: 6rem;
+        width: 6rem; }
+      .services .box-container .box h2 {
+        padding-top: 1rem;
+        color: #333; }
+        .services .box-container .box h2:hover {
+          color: #fff; }
+      .services .box-container .box:hover img {
+        filter: invert(1); }
+      .services .box-container .box:hover {
+        background-color: #333; }
+      .services .box-container .box:hover h2 {
+        color: #fff; }
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#contact {
+  padding: 4rem 0 0 0;
+  color: #fff; }
+
+.socials i {
+  color: #fff;
+  transform: scale(1); }
+  .socials i:hover {
+    color: red;
+    font-size: 800%;
+    transform: scale(1.5);
+    transition: ease 200ms; }
+
+.footer-paralax {
+  padding: 4rem 0 0 0; }
+
+.contact-mf {
+  margin-top: 4rem; }
+
+@media (min-width: 767px) {
+  .contact-mf .box-pl2 {
+    padding-left: 0rem; } }
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.main-footer {
+  padding: 1em;
+  width: 100%;
+  margin-bottom: 0 !important;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center; }
+  .main-footer p {
+    margin-bottom: 0 !important; }
+
+/*# sourceMappingURL=style.css.map */
