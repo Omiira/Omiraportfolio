@@ -198,19 +198,7 @@ body {
 .contact-mf {
   margin-top: 4rem; }
 
-@media (min-width: 767px) {
-  .contact-mf .box-pl2 {
-    padding-left: 0rem; } }
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
+//footer
 .main-footer {
   padding: 1em;
   width: 100%;
